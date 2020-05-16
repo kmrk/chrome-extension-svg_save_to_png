@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "svg save to png",
+  "description": "save svg DOM element to local png file",
+  "version": "1.0",
+  "author": "kmrk<kmrkgo@gmail.com>",
+
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+
+  "icons": {
+    "16": "images/icon@16.png",
+    "48": "images/icon@48.png",
+    "128": "images/icon@128.png"
+  },
+
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ]
+
+}
