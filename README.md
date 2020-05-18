@@ -2,6 +2,7 @@
 save svg DOM element to local png file
 # install
 https://chrome.google.com/webstore/detail/noonifhimlheemkmohflonolekjhplom
+
 or install from source code
 1. git clone
 2. drag folder into chrome extensions tab
