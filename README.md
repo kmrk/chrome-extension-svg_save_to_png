@@ -1,9 +1,9 @@
 # chrome-extensions-svg_save_to_png
 save svg DOM element to local png file
 # install
+## install via chrome web store
 https://chrome.google.com/webstore/detail/noonifhimlheemkmohflonolekjhplom
-
-or install from source code
+## install from source code
 1. git clone
 2. drag folder into chrome extensions tab
 
